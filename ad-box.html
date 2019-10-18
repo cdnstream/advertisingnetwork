@@ -7,10 +7,10 @@
 </head>
 		<script type="text/javascript">
 	function load(){
-		document.getElementById("ad").setAttribute("src", "ads/" + Math.floor(Math.random() * 1) + ".html")
+		document.getElementById("ad").setAttribute("src", "ads/" + Math.floor(Math.random() * 2) + ".html")
 	}
 	</script>
 <body onLoad="load()" style="margin: 0; overflow: hidden">
-	<iframe id="ad" scrolling="no" frameborder="0" style="overflow: hidden; height: 100vh; width: 100%;" src="ads/ads.html" frameborder="0"></iframe>
+	<iframe id="ad" frameborder="0" style="overflow: hidden; height: 100vh; width: 100%;" src="ads/ads.html" frameborder="0"></iframe>
 </body>
 </html>
